@@ -39,5 +39,4 @@ aws dynamodb create-table --region eu-central-1 --table-name status \
 ```
 npm run destroy-lambda
 ```
-
 (optionally with `-- --profile MY_PROFILE_NAME` at the end)
