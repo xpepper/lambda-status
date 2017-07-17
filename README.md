@@ -1,4 +1,4 @@
-# Installation
+# Installation
 ## 1. Install packages
 ```
 npm install
@@ -34,7 +34,7 @@ aws dynamodb create-table --region eu-central-1 --table-name status \
 
 ## 6. Configure `server/` -> See [christian-fei/lambda-status-server](https://github.com/christian-fei/lambda-status-server)
 
-# Uninstall
+# Uninstall
 ```
 npm run destroy-lambda
 ```
