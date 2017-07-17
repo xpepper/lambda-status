@@ -22,7 +22,7 @@ npm run create-lambda -- --profile MY_PROFILE_NAME
 npm run add-scheduled-event
 ```
 
-## 5. Create "DynamoDB table" called "status" with `id` index type `Number`
+## 5. Create "DynamoDB table" called "status" with `id` index type `Number`
 
 ```
 aws dynamodb create-table --region eu-central-1 --table-name status \
@@ -32,7 +32,7 @@ aws dynamodb create-table --region eu-central-1 --table-name status \
   --query TableDescription.TableArn --output text
 ```
 
-## 6. Configure `server/` -> See [christian-fei/lambda-status-server](https://github.com/christian-fei/lambda-status-server)
+## 6. Configure `server/` -> See [christian-fei/lambda-status-server](https://github.com/christian-fei/lambda-status-server)
 
 # Uninstall
 ```
