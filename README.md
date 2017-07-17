@@ -4,7 +4,7 @@
 npm install
 ```
 
-## 2. Create lambda
+## 2. Create lambda
 ```
 npm run create-lambda
 ```
@@ -15,8 +15,7 @@ If you want to use a specific AWS profile, just adds the profile at the end of e
 npm run create-lambda -- --profile MY_PROFILE_NAME
 ```
 
-
-## 3. Configure `event.json` according to your configuration.
+## 3. Configure `event.json` according to your configuration.
 
 ## 4. Create an interval to execute the status check.
 ```
